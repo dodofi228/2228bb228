@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(344deg, rgb(197, 160, 165) 0%, rgb(197, 160, 165) 20%,rgb(206, 134, 161) 20%, rgb(206, 134, 161) 38%,rgb(215, 108, 156) 38%, rgb(215, 108, 156) 68%,rgb(225, 82, 152) 68%, rgb(225, 82, 152) 78%,rgb(234, 55, 148) 78%, rgb(234, 55, 148) 80%,rgb(243, 29, 143) 80%, rgb(243, 29, 143) 96%,rgb(252, 3, 139) 96%, rgb(252, 3, 139) 100%),linear-gradient(208deg, rgb(197, 160, 165) 0%, rgb(197, 160, 165) 20%,rgb(206, 134, 161) 20%, rgb(206, 134, 161) 38%,rgb(215, 108, 156) 38%, rgb(215, 108, 156) 68%,rgb(225, 82, 152) 68%, rgb(225, 82, 152) 78%,rgb(234, 55, 148) 78%, rgb(234, 55, 148) 80%,rgb(243, 29, 143) 80%, rgb(243, 29, 143) 96%,rgb(252, 3, 139) 96%, rgb(252, 3, 139) 100%),linear-gradient(189deg, rgb(197, 160, 165) 0%, rgb(197, 160, 165) 20%,rgb(206, 134, 161) 20%, rgb(206, 134, 161) 38%,rgb(215, 108, 156) 38%, rgb(215, 108, 156) 68%,rgb(225, 82, 152) 68%, rgb(225, 82, 152) 78%,rgb(234, 55, 148) 78%, rgb(234, 55, 148) 80%,rgb(243, 29, 143) 80%, rgb(243, 29, 143) 96%,rgb(252, 3, 139) 96%, rgb(252, 3, 139) 100%),linear-gradient(230deg, rgb(197, 160, 165) 0%, rgb(197, 160, 165) 20%,rgb(206, 134, 161) 20%, rgb(206, 134, 161) 38%,rgb(215, 108, 156) 38%, rgb(215, 108, 156) 68%,rgb(225, 82, 152) 68%, rgb(225, 82, 152) 78%,rgb(234, 55, 148) 78%, rgb(234, 55, 148) 80%,rgb(243, 29, 143) 80%, rgb(243, 29, 143) 96%,rgb(252, 3, 139) 96%, rgb(252, 3, 139) 100%),linear-gradient(69deg, rgb(197, 160, 165) 0%, rgb(197, 160, 165) 20%,rgb(206, 134, 161) 20%, rgb(206, 134, 161) 38%,rgb(215, 108, 156) 38%, rgb(215, 108, 156) 68%,rgb(225, 82, 152) 68%, rgb(225, 82, 152) 78%,rgb(234, 55, 148) 78%, rgb(234, 55, 148) 80%,rgb(243, 29, 143) 80%, rgb(243, 29, 143) 96%,rgb(252, 3, 139) 96%, rgb(252, 3, 139) 100%),linear-gradient(90deg, rgb(77, 249, 52),rgb(153, 163, 31)); background-blend-mode:overlay,overlay,overlay,overlay,overlay,normal;
+    background-size: cover;
+    display: flex;
+}
+
+.header_left {
+    width: 65%;
+    height: 100%;
+    font-size: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 5vw;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.header_left p {
+    font-size: 0.5em;
+}
+
+.bio {
+    width: 60%;
+}
+
+
+.header_right {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10vw;
+}
+
+.header_btn {
+    cursor: pointer;
+}
+
+.header_btn:hover {
+    transform: scale(1.05);
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 6vw;
+    box-sizing: border-box;
+    min-height: 50vh;
+}
+
+section h1 {
+    font-size: 4em;
+}
+
+.section_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section_item {
+    height: 10vw;
+    margin: 0 4em 4em 4em;
+}
+
+.section_item img {
+    height: 100%;
+}
+
+
+.projects {
+    color: white;
+    background: black;
+}
+
+.github:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-image: url(footer_bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.footer_content {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(50%);
+    -webkit-backdrop-filter: brightness(50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
